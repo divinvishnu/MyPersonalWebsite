@@ -10320,8 +10320,17 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
+  background-color: #ffffff;  
+}
+
+.timeline > li .last-event {
   background-color: #fed136;
 }
+
+.timeline > li .timeline-image:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .timeline > li .timeline-image h4 {
   font-size: 10px;
   line-height: 14px;
